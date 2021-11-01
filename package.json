@@ -13,10 +13,10 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "lint": "eslint .",
-    "test": "react-scripts test",
+    "test": "react-scripts test",0
     "eject": "react-scripts eject",
     "test:e2e": "cypress open"
   },
